@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+body{
+    margin: 0;
+}
+
+body{
+    font-size: "Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    height: 100vh;
+    padding: auto;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+#title{
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content:center;
+    margin: 1rem 0;
+}
+
+#title > span{
+    color: blueviolet;
+}
+
+#sub-title{
+    display: flex;
+    font-size: 16px;
+    color: blueviolet;
+}
+
+#Formulario{
+     width: 100%;
+    padding: 1rem 1rem;
+    background-color: rgb(161, 76, 240);
+    border-radius: 1rem;
+}
+
+
+#head-form{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-plus{
+    background-color: rgb(209, 188, 228);
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+    height: 2rem;
+}
+
+#button-plus{
+    display: flex;
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color:  rgb(161, 76, 240);
+}
+
+#mensaje-1{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    margin: 0.3rem;
+}
+
+
+
+.lista-form{
+    background-color:  rgb(161, 76, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 100%;
+    text-align:left;
+    font-size: 12px;
+    
+}
+
+.lista{
+    width: 95%;
+    height: 10rem;
+    margin-bottom: 1.8rem;
+    max-height: 300px;
+    overflow-y: scroll;
+    list-style: none;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.TareaDeLista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(161, 76, 240);
+    justify-content:space-between ;
+    width: 100%;
+}
+
+
+.Text-tarea{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 16px;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+.s{
+     text-decoration: line-through;
+}
+   
+
+
+.button-dele{
+    width: 3rem;
+    background-color: red;
+    cursor: pointer;
+    margin: 0;
+  
+}
+
+
+.button-check{
+    background-color:  rgb(161, 76, 240);
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 2.2rem;
+}
+
+
+.button-check:hover {
+    background-color: rgb(46, 211, 8);
+  }
+
+
+#button-realizadas{
+    background-color: rgb(157, 238, 166);
+    cursor: pointer;
+    width: 33%;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+#button-incompletas{
+    background-color: rgb(205, 78, 78);
+    cursor: pointer;
+    width: 33%;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+#button-total{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    width: 33%;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+
+
+#button-op{
+    width: 100%;
+    background-color:  rgb(161, 76, 240);
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 2rem;
+
+    
+}
+
+@media (min-width: 425px) {
+    #Formulario {
+      width: 90%;
+    }
+  }
+
+@media (min-width: 768px) {
+    #Formulario {
+      width: 50%;
+    }
+  }
